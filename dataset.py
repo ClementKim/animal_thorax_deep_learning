@@ -7,7 +7,6 @@ from PIL import Image
 from torchvision import transforms
 from torch.utils.data import Dataset, DataLoader
 
-
 class CustumDataset(Dataset):
     def __init__(self, json_list, img_list, transform=None):
         self.json_list = json_list
